@@ -1,0 +1,7 @@
+authenticators:
+  - Core\Authenticators\JSONAuth
+  - Core\Authenticators\TokenAuth
+
+controllers:
+  - Controllers\IndexController
+  - Controllers\AuthController
